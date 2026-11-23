@@ -1,3 +1,9 @@
+"""Write the one-line 'rate my human' review to entry.txt.
+
+Output directory: $MAKEFUN_OUTPUT_DIR if set and non-empty, else /output.
+Standard library only; no network, randomness, or clock reads.
+"""
+
 import os
 
 TEXT = (
